@@ -12,7 +12,7 @@ Documentation exists within the project. todo comments exist throughout with rec
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
 [![Wordpress : 5.1](https://img.shields.io/badge/WordPress-v5.1%20Tested-brightgreen.svg)](https://github.com/WordPress/WordPress)
-![](https://img.shields.io/github/issues/ryanemitchell/witsage_blocks.svg?style=flat)
+![](https://img.shields.io/github/issues/ryanemitchell/witsage-blocks.svg?style=flat)
 
 ## Overview
 
