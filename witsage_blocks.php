@@ -64,3 +64,6 @@ include_once __DIR__ . '/lib/witsage-blocks-functions.php';
 
 // Include Dynamic blocks
 include_once __DIR__ . '/blocks/witage-starter-dynamic-block/witsage-starter-dynamic-block.php';
+
+
+include_once  __DIR__ .'/blocks/witage-conversion-bar-a/witsage-conversion-bar-a.php';

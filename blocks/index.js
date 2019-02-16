@@ -8,6 +8,10 @@ import "../resources/styles/editor.scss";
 import "./witage-base-layout-block";
 
 
+//Dynamic Blocks
+import "./witage-conversion-bar-a";
+
+
 //Starter Blocks (disable for production)
 import "./witage-starter-layout-block";
 import "./witage-starter-element-block";

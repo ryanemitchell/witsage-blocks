@@ -1,0 +1,226 @@
+//@import "../style";
+//@import "./horizontal-form";
+
+$conversion-bar-a-background: rgba(74, 200, 188, 1);
+$conversion-bar-a-text-color: rgb(0, 0, 0);
+$conversion-bar-a-divider-color: rgb(0, 0, 0);
+
+//Form Styling
+$conversion-bar-a-form-text-size: 1em;
+
+.witsage-block-conversion-form-a {
+  background-color: $conversion-bar-a-background;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: $conversion-bar-a-text-color;
+
+  .background-overlay {
+    background: transparent;
+  }
+
+  .conversion-bar-a {
+
+
+    //LAYOUT
+
+    .content-wrapper {
+
+      display: flex;
+      flex-wrap: nowrap;
+      //flex: 400px 2px 0;
+      align-items: center;
+      justify-content: center;
+      padding: 1em 0;
+
+      /* Medium Down */
+      @media screen and (max-width: 64em) {
+        flex-direction: column;
+        text-align: center;
+      }
+
+
+      .contact-container {
+        flex-shrink: 0;
+      }
+
+      .separator-container {
+        background-color: $conversion-bar-a-divider-color;
+        width: 1px;
+        margin: 0 1em;
+        align-self: stretch;
+
+
+        /* Medium Down */
+        @media screen and (max-width: 64em) {
+          width: 100px;
+          height: 2px;
+          align-self: auto;
+          margin: .5em 1em;
+        }
+
+      }
+
+      .form-container {
+
+        .frm_forms {
+          width: auto;
+
+
+          .frm_fields_container {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+
+            @media screen and (max-width: 64em) {
+              flex-direction: column;
+            }
+
+
+
+            .form-field,
+            .frm_submit,
+            .frm_submit button {
+              margin-bottom: 0;
+              margin-right: .5em;
+              position: relative;
+
+
+
+              @media screen and (max-width: 64em) {
+                margin-right: 0;
+                width: 100%;
+                max-width: none;
+              }
+            }
+          }
+
+          [type='text'],
+          [type='password'],
+          [type='date'],
+          [type='datetime'],
+          [type='datetime-local'],
+          [type='month'],
+          [type='week'],
+          [type='email'],
+          [type='number'],
+          [type='search'],
+          [type='tel'],
+          [type='time'],
+          [type='url'],
+          [type='color'],
+          textarea {
+            margin-bottom: 0;
+            //height: 1rem;
+            //min-height: 2.4375rem;
+            //overflow:hidden;
+            //padding-top: 0px;
+            //padding-left: 0px;
+            //line-height: 1em;
+            font-size: $conversion-bar-a-form-text-size;
+
+            @media screen and (max-width: 64em) {
+              margin-bottom: .5em;
+            }
+
+
+          }
+
+
+        }
+      }
+
+
+
+
+    }
+
+
+    //STYLING
+
+    .contact-container {
+
+
+      .line-1 {
+
+        display: block;
+        font-size: 1.5em;
+        font-weight: 400;
+        text-transform: capitalize;
+        text-align: left;
+        letter-spacing: 0.02em;
+
+        /* Medium Down */
+        @media screen and (max-width: 64em) {
+          text-align: center;
+        }
+
+
+      }
+
+      .line-2 {
+        display: block;
+        font-size: 1.5em;
+        font-weight: 400;
+        text-align: left;
+        letter-spacing: 0.01em;
+
+        a {
+          color: $conversion-bar-a-text-color;
+        }
+
+        /* Medium Down */
+        @media screen and (max-width: 64em) {
+          text-align: center;
+        }
+
+
+      }
+
+
+    }
+
+
+    .form-container {
+      display: flex;
+      flex-direction: column;
+
+      .form-container-header {
+
+        .title {
+          font-size: 24px;
+          font-weight: 500;
+          letter-spacing: 0.01em;
+        }
+      }
+
+      .form-container-main-content {
+        padding: .5em 0;
+      }
+
+      .form-container-footer {
+
+        .privacy {
+          font-size: 12px;
+          text-align: left;
+          line-height: 24px;
+
+        }
+      }
+
+
+    }
+
+
+  }
+
+  .frm_error {
+    background-color: #e7e7e7;
+    position: absolute;
+    top: 3em;
+    color: #880914;
+    border: 1px solid #880914;
+  }
+
+
+}
