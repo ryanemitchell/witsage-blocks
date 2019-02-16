@@ -4,7 +4,11 @@ import "../resources/styles/editor.scss";
 
 //Import Blocks
 
-//Starter Blocks
+//Layout Blocks
+import "./witage-base-layout-block";
+
+
+//Starter Blocks (disable for production)
 import "./witage-starter-layout-block";
 import "./witage-starter-element-block";
 import "./witage-starter-dynamic-block";
