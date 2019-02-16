@@ -1,0 +1,11 @@
+@import "theme";
+@import "utilities";
+//@import "development";
+@import "witsage-block-styles";
+@import "witsage-element-block-styles";
+
+//make inner block easier to find.
+.editor-inner-blocks {
+  border: 1px solid rgba(204, 204, 204, 0.5);
+  background-color: rgba(204, 204, 204, 0.2);
+}

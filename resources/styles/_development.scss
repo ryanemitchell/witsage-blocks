@@ -1,0 +1,65 @@
+//Structure Outline for Development
+
+.witsage-block {
+
+  .witsage-block-outer {
+    background: rgba(169, 169, 169, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+
+    &:before {
+      //content: 'witsage-block-outer';
+      color: #ffffff;
+    }
+
+
+    .witsage-block-background-overlay {
+
+      background: rgba(169, 169, 169, 0.5);
+      border: 1px solid rgba(0, 0, 0, 0.5);
+
+      &:before {
+        //content: 'witsage-block-background-overlay';
+        color: #ffffff;
+      }
+
+      .witsage-block-content-wrapper {
+
+        background: rgba(169, 169, 169, 0.5);
+        border: 1px solid rgba(0, 0, 0, 0.5);
+
+        &:before {
+          //content: 'witsage-block-content-wrapper';
+          color: #ffffff;
+        }
+
+        .witsage-block-content {
+
+          background: rgba(169, 169, 169, 0.5);
+          border: 1px solid rgba(0, 0, 0, 0.5);
+
+          &:before {
+            //content: 'witsage-block-content';
+            color: #ffffff;
+          }
+
+        }
+
+        /* End of .witsage-block-content */
+
+      }
+
+      /* End of .witsage-block-content-wrapper */
+
+    }
+
+    /* End of .witsage-block-background-overlay */
+
+  }
+
+  /* End of .witsage-block-outer */
+
+}
+
+/* End of .witsage-block */
+
+// END Structure for Reference
