@@ -195,7 +195,7 @@ Good blocks for studying techniques:
 @todo add theme shortcodes as blocks
 
 
-##Issues
+## Issues
 
 Issues prior to implementing issue tracking.
 
